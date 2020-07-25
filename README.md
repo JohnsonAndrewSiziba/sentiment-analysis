@@ -23,4 +23,4 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### npm install bootstrap jquery popper.js
+### npm install bootstrap jquery popper.js# sentiment-analysis
