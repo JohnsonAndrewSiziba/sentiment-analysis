@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="App logo" src="../assets/logo.png" class="w-75">
+    <img alt="App logo" src="../assets/logo.png" style="max-width: 75%">
     <SentenceInput v-on:submit-sentence="submitSentence"/>
     <Results v-bind:results="results" v-show="results" />
   </div>
