@@ -6,15 +6,15 @@
         <table class="table w-50 text-secondary">
             <tr>
                 <td>Positive Score</td>
-                <td>{{results.pos}}</td>
+                <td>{{results.pos}}%</td>
             </tr>
             <tr>
                 <td>Negative Score</td>
-                <td>{{results.neg}}</td>
+                <td>{{results.neg}}%</td>
             </tr>
             <tr>
                 <td>Neutral Score</td>
-                <td>{{results.neu}}</td>
+                <td>{{results.neu}}%</td>
             </tr>
             <tr>
                 <td>Overall</td>
