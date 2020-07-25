@@ -1,24 +1,24 @@
 <template>
     <div class="container mt-2 text-left">
         <p class="text-success">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto aspernatur aut consectetur consequatur deleniti dignissimos ex
+            {{results.s}}
         </p>
         <table class="table w-50 text-secondary">
             <tr>
                 <td>Positive Score</td>
-                <td>10%</td>
+                <td>{{results.pos}}</td>
             </tr>
             <tr>
                 <td>Negative Score</td>
-                <td>10%</td>
+                <td>{{results.neg}}</td>
             </tr>
             <tr>
                 <td>Neutral Score</td>
-                <td>10%</td>
+                <td>{{results.neu}}</td>
             </tr>
             <tr>
                 <td>Overall</td>
-                <td>Positive</td>
+                <td>{{results.ova}}</td>
             </tr>
 
 
@@ -28,7 +28,8 @@
 
 <script>
     export default {
-        name: "Results"
+        name: "Results",
+        props: ["results"]
     }
 </script>
 
